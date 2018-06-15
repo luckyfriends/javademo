@@ -16,26 +16,7 @@
 					<target>1.7</target>
 				</configuration>
 			</plugin>
-   			<plugin>
-			    <artifactId>maven-surefire-plugin</artifactId>
-			    <version>2.9</version>
-			    <configuration>
-			     <skip>false</skip>
-			    </configuration>
-			    <executions>
-			     <execution>
-			      <id>surefire-it</id>
-			      <phase>integration-test</phase>
-			      <goals>
-			       <goal>test</goal>
-			      </goals>
-			      <configuration>
-			       <skip>false</skip>
-			      </configuration>
-			     </execution>
-			    </executions>
-		   </plugin>
-		  </plugins>
+   		</plugins>
 	</build>
 	<dependencies>
 		<dependency>
